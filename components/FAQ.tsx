@@ -6,44 +6,28 @@ import { cn } from '@/lib/utils'
 
 const faqs = [
   {
-    question: "When will Restoring Hope Clinic officially open?",
-    answer: "We're launching in August 2025 at 7Hills Homeless Center in Fayetteville, Arkansas. We're currently in Phase 0, working on renovations, equipment acquisition, and staff recruitment."
+    question: "How does Restoring Hope serve as a healthcare partnership hub?",
+    answer: "We coordinate care between dozens of healthcare providers across Northwest Arkansas. Our hub model connects patients with the right specialists, manages referrals, and ensures comprehensive care pathways from primary care through specialty services."
   },
   {
-    question: "What services will be available at launch?",
-    answer: "At launch, we'll provide comprehensive medical care, dental services, and mental health support. This includes primary care, preventive services, basic dental procedures, counseling, and medication management—all integrated with housing support services."
+    question: "How can my clinic become a partner?",
+    answer: "Healthcare providers, clinics, and specialists can join our partnership network by visiting our Partner page and completing the partnership application. We work with all types of healthcare providers to create seamless referral pathways."
   },
   {
-    question: "Who is eligible for care at Restoring Hope Clinic?",
-    answer: "Our services are designed for uninsured individuals and families, particularly those experiencing or at risk of homelessness. We welcome patients of all ages and prioritize those with household incomes at or below 200% of the Federal Poverty Level."
+    question: "Who is eligible for services?",
+    answer: "We primarily serve uninsured and underinsured individuals in Northwest Arkansas. Our partnership hub ensures that patients receive appropriate care regardless of their ability to pay, connecting them with the right providers in our network."
   },
   {
-    question: "How much do services cost?",
-    answer: "All healthcare services at Restoring Hope Clinic are provided at no cost to patients. We believe healthcare is a right, not a privilege, and our model ensures 100% free care for everyone who walks through our doors."
+    question: "What services are available?",
+    answer: "Through our partnership network, we coordinate comprehensive medical, dental, and mental health services. While we provide direct care at 7Hills, we also connect patients with specialists and services throughout our partner network."
   },
   {
-    question: "What makes this clinic different from other healthcare facilities?",
-    answer: "We're pioneering an integrated model that addresses healthcare and housing together. Our student-led, physician-mentored approach provides high-quality care while training the next generation of healthcare providers. Being co-located at 7Hills allows us to address social determinants of health comprehensively."
+    question: "When does the clinic launch?",
+    answer: "We are launching in August 2025 at 7Hills Homeless Center in Fayetteville, Arkansas. We're actively building our partnership network now to ensure comprehensive care coordination from day one."
   },
   {
-    question: "What medical schools are involved in this project?",
-    answer: "We're partnering with three medical institutions: UAMS (University of Arkansas for Medical Sciences), Washington Regional Medical Center, and the Alice Walton School of Medicine. Students from these programs will provide care under experienced physician supervision."
-  },
-  {
-    question: "How can I get care before the August 2025 launch?",
-    answer: "While our clinic opens in August 2025, you can contact us now at (870) 335-6746 or RestoringHopeClinic@gmail.com to get on our waiting list and receive information about interim healthcare resources in Northwest Arkansas."
-  },
-  {
-    question: "Can I volunteer or support the clinic's development?",
-    answer: "Absolutely! We need volunteers with medical backgrounds, technology skills, construction expertise, and general support. We also welcome equipment donations, financial support, and partnership opportunities. Visit our volunteer and donate pages to learn more."
-  },
-  {
-    question: "Where exactly is the clinic located?",
-    answer: "We're located at 828 S Seven Hills Ct, Fayetteville, AR 72701, within the 7Hills Homeless Center campus. This 10-acre integrated facility allows us to provide coordinated healthcare and housing services."
-  },
-  {
-    question: "What are your long-term goals beyond the initial launch?",
-    answer: "Phase II (1-2 years) includes expanding mental health services, developing transitional housing, and creating a fully integrated campus. Our ultimate goal is to create a replicable model that can be implemented in other communities facing similar challenges."
+    question: "How can I volunteer or get involved?",
+    answer: "We offer volunteer opportunities for medical students, healthcare professionals, and community members. Visit our Volunteer page to learn about current opportunities and apply to join our team."
   }
 ]
 

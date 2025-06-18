@@ -29,43 +29,44 @@ export default function Home() {
         <div className="max-w-7xl mx-auto container-padding">
           <div className="text-center max-w-4xl mx-auto mb-16">
             <h2 className="heading-lg text-gray-900 dark:text-white mb-6">
-              A Blueprint for Integrated, Sustainable Healthcare
+              Northwest Arkansas Healthcare Partnership Hub
             </h2>
             <p className="body-lg text-gray-600 dark:text-gray-300 mb-12">
-              Restoring Hope Clinic is a nonprofit healthcare initiative launching August 2025 at 7Hills Homeless Center. 
-              Our student-led, physician-mentored approach provides comprehensive medical, dental, and mental health services 
-              while addressing the broader social determinants of health, including housing insecurity.
+              Restoring Hope Clinic serves as the central coordination hub connecting patients with a comprehensive 
+              network of healthcare providers across Northwest Arkansas. Our revolutionary partnership model eliminates 
+              healthcare fragmentation by creating seamless pathways between clinics, specialists, and community 
+              health organizations, ensuring every patient receives coordinated, comprehensive care.
             </p>
             
             {/* Clean values grid */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-12">
               <div className="text-center">
                 <div className="w-16 h-16 bg-blue-100 dark:bg-blue-900 rounded-xl flex items-center justify-center mx-auto mb-4">
-                  <Shield className="w-8 h-8 text-blue-600 dark:text-blue-400" />
+                  <Building2 className="w-8 h-8 text-blue-600 dark:text-blue-400" />
                 </div>
-                <h3 className="font-semibold text-gray-900 dark:text-white mb-2">Accessibility</h3>
-                <p className="text-gray-600 dark:text-gray-400 text-sm">Healthcare within walking distance for everyone who needs it</p>
+                <h3 className="font-semibold text-gray-900 dark:text-white mb-2">Partnership Hub</h3>
+                <p className="text-gray-600 dark:text-gray-400 text-sm">Connecting healthcare providers across Northwest Arkansas</p>
               </div>
               <div className="text-center">
                 <div className="w-16 h-16 bg-green-100 dark:bg-green-900 rounded-xl flex items-center justify-center mx-auto mb-4">
                   <Users className="w-8 h-8 text-green-600 dark:text-green-400" />
                 </div>
-                <h3 className="font-semibold text-gray-900 dark:text-white mb-2">Collaboration</h3>
-                <p className="text-gray-600 dark:text-gray-400 text-sm">Uniting universities, nonprofits, and health systems</p>
+                <h3 className="font-semibold text-gray-900 dark:text-white mb-2">Coordinated Care</h3>
+                <p className="text-gray-600 dark:text-gray-400 text-sm">Seamless referrals and comprehensive care pathways</p>
               </div>
               <div className="text-center">
                 <div className="w-16 h-16 bg-purple-100 dark:bg-purple-900 rounded-xl flex items-center justify-center mx-auto mb-4">
-                  <TrendingUp className="w-8 h-8 text-purple-600 dark:text-purple-400" />
+                  <Shield className="w-8 h-8 text-purple-600 dark:text-purple-400" />
                 </div>
-                <h3 className="font-semibold text-gray-900 dark:text-white mb-2">Sustainability</h3>
-                <p className="text-gray-600 dark:text-gray-400 text-sm">Built for long-term impact, not reliant on unstable funding</p>
+                <h3 className="font-semibold text-gray-900 dark:text-white mb-2">Accessibility</h3>
+                <p className="text-gray-600 dark:text-gray-400 text-sm">Free healthcare for uninsured and underinsured patients</p>
               </div>
               <div className="text-center">
                 <div className="w-16 h-16 bg-orange-100 dark:bg-orange-900 rounded-xl flex items-center justify-center mx-auto mb-4">
-                  <Award className="w-8 h-8 text-orange-600 dark:text-orange-400" />
+                  <TrendingUp className="w-8 h-8 text-orange-600 dark:text-orange-400" />
                 </div>
                 <h3 className="font-semibold text-gray-900 dark:text-white mb-2">Innovation</h3>
-                <p className="text-gray-600 dark:text-gray-400 text-sm">Creating new models of integrated care delivery</p>
+                <p className="text-gray-600 dark:text-gray-400 text-sm">Revolutionary partnership model for sustainable healthcare</p>
               </div>
             </div>
           </div>
@@ -86,82 +87,20 @@ export default function Home() {
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-white dark:bg-gray-800 rounded-2xl p-8 shadow-sm border border-gray-200 dark:border-gray-700">
-              <div className="w-16 h-16 bg-orange-100 dark:bg-orange-900 rounded-xl flex items-center justify-center mx-auto mb-6">
-                <Calendar className="w-8 h-8 text-orange-600 dark:text-orange-400" />
-              </div>
-              <h3 className="heading-sm text-gray-900 dark:text-white mb-4 text-center">Phase 0: Launch Prep</h3>
-              <p className="text-orange-600 dark:text-orange-400 font-semibold mb-4 text-center">Now - August 2025</p>
-              <ul className="text-gray-600 dark:text-gray-400 space-y-2 text-sm">
-                <li className="flex items-start gap-2">
-                  <CheckCircle className="w-4 h-4 text-green-500 mt-0.5 flex-shrink-0" />
-                  <span>Renovate clinic space at 7Hills</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <CheckCircle className="w-4 h-4 text-green-500 mt-0.5 flex-shrink-0" />
-                  <span>Acquire equipment and supplies</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <CheckCircle className="w-4 h-4 text-green-500 mt-0.5 flex-shrink-0" />
-                  <span>Establish EMR system (EPIC)</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <CheckCircle className="w-4 h-4 text-green-500 mt-0.5 flex-shrink-0" />
-                  <span>Recruit medical personnel</span>
-                </li>
-              </ul>
+            <div className="bg-white dark:bg-gray-800 rounded-2xl p-8 text-center shadow-lg border border-gray-200 dark:border-gray-700 hover:shadow-xl transition-all duration-300">
+              <div className="text-4xl font-bold text-blue-600 dark:text-blue-400 mb-3">100%</div>
+              <div className="text-gray-600 dark:text-gray-400 font-medium">Free Care</div>
+              <div className="text-gray-500 dark:text-gray-500 text-sm mt-2">No cost to patients</div>
             </div>
-            
-            <div className="bg-white dark:bg-gray-800 rounded-2xl p-8 shadow-sm border border-gray-200 dark:border-gray-700">
-              <div className="w-16 h-16 bg-blue-100 dark:bg-blue-900 rounded-xl flex items-center justify-center mx-auto mb-6">
-                <Stethoscope className="w-8 h-8 text-blue-600 dark:text-blue-400" />
-              </div>
-              <h3 className="heading-sm text-gray-900 dark:text-white mb-4 text-center">Phase I: Operations</h3>
-              <p className="text-blue-600 dark:text-blue-400 font-semibold mb-4 text-center">6 months - 1 year</p>
-              <ul className="text-gray-600 dark:text-gray-400 space-y-2 text-sm">
-                <li className="flex items-start gap-2">
-                  <ArrowRight className="w-4 h-4 text-blue-500 mt-0.5 flex-shrink-0" />
-                  <span>Begin core medical services</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <ArrowRight className="w-4 h-4 text-blue-500 mt-0.5 flex-shrink-0" />
-                  <span>Health screenings & education</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <ArrowRight className="w-4 h-4 text-blue-500 mt-0.5 flex-shrink-0" />
-                  <span>Build interconnected referral networks connecting local clinics and specialists</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <ArrowRight className="w-4 h-4 text-blue-500 mt-0.5 flex-shrink-0" />
-                  <span>Establish clinic partnership hub as central coordination point</span>
-                </li>
-              </ul>
+            <div className="bg-white dark:bg-gray-800 rounded-2xl p-8 text-center shadow-lg border border-gray-200 dark:border-gray-700 hover:shadow-xl transition-all duration-300">
+              <div className="text-4xl font-bold text-green-600 dark:text-green-400 mb-3">2</div>
+              <div className="text-gray-600 dark:text-gray-400 font-medium">Medical Schools</div>
+              <div className="text-gray-500 dark:text-gray-500 text-sm mt-2">Partner institutions</div>
             </div>
-            
-            <div className="bg-white dark:bg-gray-800 rounded-2xl p-8 shadow-sm border border-gray-200 dark:border-gray-700">
-              <div className="w-16 h-16 bg-green-100 dark:bg-green-900 rounded-xl flex items-center justify-center mx-auto mb-6">
-                <Building2 className="w-8 h-8 text-green-600 dark:text-green-400" />
-              </div>
-              <h3 className="heading-sm text-gray-900 dark:text-white mb-4 text-center">Phase II: Expansion</h3>
-              <p className="text-green-600 dark:text-green-400 font-semibold mb-4 text-center">1-2 years</p>
-              <ul className="text-gray-600 dark:text-gray-400 space-y-2 text-sm">
-                <li className="flex items-start gap-2">
-                  <TrendingUp className="w-4 h-4 text-green-500 mt-0.5 flex-shrink-0" />
-                  <span>Full mental health services</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <TrendingUp className="w-4 h-4 text-green-500 mt-0.5 flex-shrink-0" />
-                  <span>Transitional housing development</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <TrendingUp className="w-4 h-4 text-green-500 mt-0.5 flex-shrink-0" />
-                  <span>Integrated campus design</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <TrendingUp className="w-4 h-4 text-green-500 mt-0.5 flex-shrink-0" />
-                  <span>Comprehensive care model</span>
-                </li>
-              </ul>
+            <div className="bg-white dark:bg-gray-800 rounded-2xl p-8 text-center shadow-lg border border-gray-200 dark:border-gray-700 hover:shadow-xl transition-all duration-300">
+              <div className="text-4xl font-bold text-orange-600 dark:text-orange-400 mb-3">Aug</div>
+              <div className="text-gray-600 dark:text-gray-400 font-medium">2025 Launch</div>
+              <div className="text-gray-500 dark:text-gray-500 text-sm mt-2">Opening date</div>
             </div>
           </div>
         </div>
@@ -281,23 +220,68 @@ export default function Home() {
               </div>
             </div>
             
-            <div className="grid grid-cols-2 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="bg-white dark:bg-gray-800 rounded-2xl p-6 text-center shadow-sm border border-gray-200 dark:border-gray-700">
                 <div className="text-3xl font-bold text-blue-600 dark:text-blue-400 mb-2">100%</div>
                 <div className="text-gray-600 dark:text-gray-400 text-sm">Free Care</div>
               </div>
               <div className="bg-white dark:bg-gray-800 rounded-2xl p-6 text-center shadow-sm border border-gray-200 dark:border-gray-700">
-                <div className="text-3xl font-bold text-green-600 dark:text-green-400 mb-2">3</div>
+                <div className="text-3xl font-bold text-green-600 dark:text-green-400 mb-2">2</div>
                 <div className="text-gray-600 dark:text-gray-400 text-sm">Medical Schools</div>
-              </div>
-              <div className="bg-white dark:bg-gray-800 rounded-2xl p-6 text-center shadow-sm border border-gray-200 dark:border-gray-700">
-                <div className="text-3xl font-bold text-purple-600 dark:text-purple-400 mb-2">10</div>
-                <div className="text-gray-600 dark:text-gray-400 text-sm">Acre Campus</div>
               </div>
               <div className="bg-white dark:bg-gray-800 rounded-2xl p-6 text-center shadow-sm border border-gray-200 dark:border-gray-700">
                 <div className="text-3xl font-bold text-orange-600 dark:text-orange-400 mb-2">Aug</div>
                 <div className="text-gray-600 dark:text-gray-400 text-sm">2025 Launch</div>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Partnership Call-to-Action Section */}
+      <section className="section-padding bg-gradient-to-r from-blue-600 via-teal-600 to-blue-700">
+        <div className="max-w-7xl mx-auto container-padding">
+          <div className="text-center text-white mb-16">
+            <h2 className="heading-lg mb-6">
+              Join Our Healthcare Partnership Network
+            </h2>
+            <p className="body-lg text-white/90 mb-8 max-w-3xl mx-auto">
+              Are you a healthcare provider, clinic, or specialist looking to better serve patients in Northwest Arkansas? 
+              Join our growing partnership network and help eliminate healthcare fragmentation in our community.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <a href="/partner" className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-50 transition-all duration-300 inline-flex items-center justify-center">
+                Become a Partner Clinic
+                <Building2 className="ml-2 w-4 h-4" />
+              </a>
+              <a href="/get-care" className="bg-white/10 border border-white/30 hover:bg-white/20 text-white px-8 py-3 rounded-lg font-semibold transition-all duration-300 inline-flex items-center justify-center">
+                Learn About Our Services
+                <ArrowRight className="ml-2 w-4 h-4" />
+              </a>
+            </div>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="text-center text-white">
+              <div className="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Building2 className="w-8 h-8 text-white" />
+              </div>
+              <h3 className="font-semibold mb-2">Partner Clinics</h3>
+              <p className="text-white/80">Join our network of healthcare providers working together</p>
+            </div>
+            <div className="text-center text-white">
+              <div className="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Users className="w-8 h-8 text-white" />
+              </div>
+              <h3 className="font-semibold mb-2">Coordinated Referrals</h3>
+              <p className="text-white/80">Seamless patient referrals across our entire network</p>
+            </div>
+            <div className="text-center text-white">
+              <div className="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Heart className="w-8 h-8 text-white" />
+              </div>
+              <h3 className="font-semibold mb-2">Better Outcomes</h3>
+              <p className="text-white/80">Comprehensive care leads to improved patient health</p>
             </div>
           </div>
         </div>

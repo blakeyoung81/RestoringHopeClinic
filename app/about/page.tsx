@@ -32,29 +32,30 @@ export default function About() {
               </div>
             </div>
             <h1 className="heading-xl mb-6 fade-in">
-              A Blueprint for Integrated
-              <span className="block text-teal-200 mt-2">Sustainable Healthcare</span>
+              Your Healthcare
+              <span className="block text-teal-200 mt-2">Partnership Hub</span>
             </h1>
             <p className="body-lg text-white/90 mb-8 slide-up">
-              Restoring Hope Clinic is a nonprofit healthcare initiative launching at 7Hills Homeless Center, 
-              creating an innovative student-led, physician-mentored model that addresses healthcare and housing together.
+              Restoring Hope Clinic is Northwest Arkansas's premier healthcare partnership hub, connecting patients 
+              with a comprehensive network of local clinics, specialists, and healthcare providers. We're revolutionizing 
+              healthcare delivery by creating an interconnected ecosystem where no patient falls through the cracks.
             </p>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-12 slide-up">
               <div className="text-center">
-                <div className="stat-number text-white">2025</div>
-                <div className="stat-label text-white/70">Founded</div>
+                <div className="stat-number text-white">Hub</div>
+                <div className="stat-label text-white/70">Partnership Model</div>
               </div>
               <div className="text-center">
-                <div className="stat-number text-white">7Hills</div>
-                <div className="stat-label text-white/70">Partner Location</div>
-              </div>
-              <div className="text-center">
-                <div className="stat-number text-white">3</div>
+                <div className="stat-number text-white">2</div>
                 <div className="stat-label text-white/70">Medical Schools</div>
               </div>
               <div className="text-center">
-                <div className="stat-number text-white">10</div>
-                <div className="stat-label text-white/70">Acre Campus</div>
+                <div className="stat-number text-white">100%</div>
+                <div className="stat-label text-white/70">Free Care</div>
+              </div>
+              <div className="text-center">
+                <div className="stat-number text-white">2025</div>
+                <div className="stat-label text-white/70">Launch Year</div>
               </div>
             </div>
           </div>
@@ -67,24 +68,24 @@ export default function About() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div>
               <h2 className="heading-lg text-gray-900 dark:text-white mb-6">
-                Our Mission
+                Healthcare Partnership Hub Mission
               </h2>
               <p className="body-lg text-gray-600 dark:text-gray-300 mb-8">
-                Restoring Hope Clinic is committed to providing comprehensive, high-quality, accessible medical, dental, 
-                and mental health services to underserved, uninsured, and underinsured populations in Northwest Arkansas. 
-                Our student-led, physician-mentored approach creates a central healthcare hub that connects patients with 
-                a network of local clinics, specialists, and healthcare providers. We serve as the interconnected link 
-                between various healthcare services, ensuring no patient falls through the cracks.
+                Restoring Hope Clinic serves as the central coordination hub for healthcare delivery in Northwest Arkansas. 
+                Our primary mission is to create an interconnected network of healthcare providers, ensuring seamless 
+                patient care coordination between clinics, specialists, hospitals, and community health organizations. 
+                We eliminate healthcare fragmentation by serving as the vital link that connects patients with the right 
+                providers at the right time, while providing direct care for uninsured and underinsured populations.
               </p>
               <div className="space-y-6">
                 <div className="flex items-start space-x-4">
                   <div className="w-12 h-12 bg-blue-100 dark:bg-blue-900 rounded-xl flex items-center justify-center flex-shrink-0">
-                    <Shield className="w-6 h-6 text-blue-600 dark:text-blue-400" />
+                    <Building2 className="w-6 h-6 text-blue-600 dark:text-blue-400" />
                   </div>
                   <div>
-                    <h3 className="font-semibold text-gray-900 dark:text-white mb-2">Accessibility</h3>
+                    <h3 className="font-semibold text-gray-900 dark:text-white mb-2">Central Partnership Hub</h3>
                     <p className="text-gray-600 dark:text-gray-400">
-                      Healthcare for uninsured, underinsured, and underserved populations within a short walk.
+                      We serve as the central coordination point connecting dozens of local healthcare providers, ensuring comprehensive care pathways for every patient.
                     </p>
                   </div>
                 </div>
@@ -93,20 +94,20 @@ export default function About() {
                     <Users className="w-6 h-6 text-green-600 dark:text-green-400" />
                   </div>
                   <div>
-                    <h3 className="font-semibold text-gray-900 dark:text-white mb-2">Healthcare Hub</h3>
+                    <h3 className="font-semibold text-gray-900 dark:text-white mb-2">Seamless Referral Network</h3>
                     <p className="text-gray-600 dark:text-gray-400">
-                      Central coordination point connecting patients with local clinics, universities, nonprofits, churches, and health systems.
+                      Our interconnected referral system connects patients with specialized care across the region, from primary care to specialty services.
                     </p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
                   <div className="w-12 h-12 bg-purple-100 dark:bg-purple-900 rounded-xl flex items-center justify-center flex-shrink-0">
-                    <TrendingUp className="w-6 h-6 text-purple-600 dark:text-purple-400" />
+                    <Shield className="w-6 h-6 text-purple-600 dark:text-purple-400" />
                   </div>
                   <div>
-                    <h3 className="font-semibold text-gray-900 dark:text-white mb-2">Sustainability</h3>
+                    <h3 className="font-semibold text-gray-900 dark:text-white mb-2">Comprehensive Access</h3>
                     <p className="text-gray-600 dark:text-gray-400">
-                      Built for the long term, not reliant on unstable funding.
+                      No patient falls through the cracks - our hub model ensures every individual receives appropriate care regardless of insurance status.
                     </p>
                   </div>
                 </div>
@@ -134,8 +135,8 @@ export default function About() {
                   <div className="text-sm text-gray-600 dark:text-gray-400">Free Care</div>
                 </div>
                 <div className="text-center p-4 bg-white dark:bg-gray-800 rounded-xl">
-                  <div className="text-2xl font-bold text-green-600 dark:text-green-400">Aug</div>
-                  <div className="text-sm text-gray-600 dark:text-gray-400">2025 Launch</div>
+                  <div className="text-2xl font-bold text-green-600 dark:text-green-400">2</div>
+                  <div className="text-sm text-gray-600 dark:text-gray-400">Medical Schools</div>
                 </div>
               </div>
             </div>
@@ -149,58 +150,58 @@ export default function About() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
             <div>
               <h2 className="heading-lg text-gray-900 dark:text-white mb-6">
-                The Problem: A Fragmented System
+                The Problem: Healthcare Fragmentation
               </h2>
               <p className="body-md text-gray-600 dark:text-gray-300 mb-6">
-                Despite numerous programs across Northwest Arkansas, the current system of care for the unhoused 
-                is fragmented, inconsistent, and difficult to navigate. Many individuals experiencing homelessness 
-                lack access to coordinated, consistent medical care.
+                Northwest Arkansas has numerous healthcare providers, but they operate in isolation. Patients 
+                struggle to navigate between different clinics, specialists, and services. This fragmentation 
+                creates gaps in care, duplicated services, and patients who fall through the cracks.
               </p>
               <ul className="space-y-3 text-gray-600 dark:text-gray-300">
                 <li className="flex items-start gap-3">
                   <span className="w-2 h-2 bg-red-500 rounded-full mt-2 flex-shrink-0"></span>
-                  Programs operate in silos, unaware of each other's efforts
+                  Healthcare providers working in isolation without coordination
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="w-2 h-2 bg-red-500 rounded-full mt-2 flex-shrink-0"></span>
-                  Patients fall through the cracks between services
+                  Patients lost between referrals and specialty appointments
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="w-2 h-2 bg-red-500 rounded-full mt-2 flex-shrink-0"></span>
-                  Emergency departments become default care providers
+                  No central coordination for comprehensive care planning
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="w-2 h-2 bg-red-500 rounded-full mt-2 flex-shrink-0"></span>
-                  Rising housing costs worsen the crisis
+                  Duplicated services and inefficient resource allocation
                 </li>
               </ul>
             </div>
             
             <div>
               <h2 className="heading-lg text-gray-900 dark:text-white mb-6">
-                Our Solution: Integrated Care
+                Our Solution: Partnership Hub Model
               </h2>
               <p className="body-md text-gray-600 dark:text-gray-300 mb-6">
-                Restoring Hope Clinic is co-located within 7Hills Homeless Center, delivering high-quality, 
-                no-cost medical, dental, and mental health care. We leverage student doctors, residents, 
-                and volunteer physicians from UAMS, Washington Regional, and Alice Walton School of Medicine.
+                Restoring Hope Clinic creates a centralized partnership hub that connects all healthcare providers 
+                in the region. We coordinate care, manage referrals, and ensure patients receive comprehensive 
+                treatment through our interconnected network of partner clinics and specialists.
               </p>
               <ul className="space-y-3 text-gray-600 dark:text-gray-300">
                 <li className="flex items-start gap-3">
                   <span className="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></span>
-                  Integrated community hub addressing health and housing
+                  Central hub connecting dozens of healthcare providers
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></span>
-                  Student-led, physician-mentored sustainable model
+                  Seamless referral system with real-time coordination
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></span>
-                  Partnerships across education, architecture, and medicine
+                  Comprehensive care pathways for every patient
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></span>
-                  Replicable and scalable model for other cities
+                  Partnership-driven model ensuring sustainability
                 </li>
               </ul>
             </div>

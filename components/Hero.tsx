@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button"
-import { Heart, Users, Stethoscope, GraduationCap, ArrowRight, Calendar } from "lucide-react"
+import { Heart, Users, Stethoscope, GraduationCap, ArrowRight, Calendar, Building2 } from "lucide-react"
 import Link from "next/link"
 
 export default function Hero() {
@@ -22,29 +22,30 @@ export default function Hero() {
 
           {/* Professional headline */}
           <h1 className="heading-xl mb-6 fade-in">
-            Restoring Hope & Health
-            <span className="block text-teal-200 mt-2">One Life at a Time</span>
+            Healthcare Partnership Hub
+            <span className="block text-teal-200 mt-2">Connecting Care Across Arkansas</span>
           </h1>
           
           <p className="body-lg text-white/90 mb-8 slide-up max-w-3xl mx-auto">
-            A revolutionary student-led, physician-mentored healthcare initiative launching at 7Hills Homeless Center. 
-            We're creating an <span className="text-teal-200 font-semibold">integrated model</span> that addresses healthcare and housing together, 
-            breaking the cycle of homelessness through comprehensive medical, dental, and mental health services.
+            Northwest Arkansas's premier healthcare partnership hub launching at 7Hills Homeless Center. 
+            We're creating an <span className="text-teal-200 font-semibold">interconnected network</span> that connects patients 
+            with dozens of local healthcare providers, eliminating fragmentation and ensuring comprehensive care coordination 
+            across medical, dental, and mental health services.
           </p>
 
           {/* Clean trust indicators */}
           <div className="flex flex-wrap justify-center items-center gap-6 mb-8 slide-up">
             <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm rounded-full px-4 py-2">
-              <Stethoscope className="w-5 h-5 text-white" />
-              <span className="text-white text-sm font-medium">Student-Led Care</span>
+              <Building2 className="w-5 h-5 text-white" />
+              <span className="text-white text-sm font-medium">Partnership Hub</span>
             </div>
             <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm rounded-full px-4 py-2">
-              <GraduationCap className="w-5 h-5 text-white" />
-              <span className="text-white text-sm font-medium">Physician-Mentored</span>
+              <Users className="w-5 h-5 text-white" />
+              <span className="text-white text-sm font-medium">Coordinated Care</span>
             </div>
             <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm rounded-full px-4 py-2">
               <Heart className="w-5 h-5 text-white" />
-              <span className="text-white text-sm font-medium">Integrated Housing</span>
+              <span className="text-white text-sm font-medium">100% Free</span>
             </div>
           </div>
 
@@ -65,22 +66,18 @@ export default function Hero() {
           </div>
 
           {/* Clean statistics grid */}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-12 slide-up">
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-6 mt-12 slide-up">
             <div className="text-center">
               <div className="stat-number text-white">Aug</div>
               <div className="stat-label text-white/70">2025 Launch</div>
             </div>
             <div className="text-center">
-              <div className="stat-number text-white">3</div>
+              <div className="stat-number text-white">2</div>
               <div className="stat-label text-white/70">Medical Schools</div>
             </div>
             <div className="text-center">
               <div className="stat-number text-white">100%</div>
               <div className="stat-label text-white/70">Free Care</div>
-            </div>
-            <div className="text-center">
-              <div className="stat-number text-white">10</div>
-              <div className="stat-label text-white/70">Acre Campus</div>
             </div>
           </div>
         </div>
