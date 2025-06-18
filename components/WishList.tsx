@@ -15,14 +15,16 @@ const wishListCategories = [
       'Face masks and N95 respirators',
       'Blood pressure cuffs',
       'Stethoscopes',
-      'Thermometers (digital)',
+      'Digital thermometers',
       'Pulse oximeters',
       'Bandages and gauze',
       'Medical tape',
       'Alcohol prep pads',
-      'Syringes and needles',
+      'Syringes and needles (sterile)',
       'Examination table paper',
       'Hand sanitizer',
+      'Digital scales',
+      'Basic wound care supplies'
     ],
     priority: 'high'
   },
@@ -48,27 +50,6 @@ const wishListCategories = [
     priority: 'high'
   },
   {
-    id: 'medications',
-    title: 'Medications & Pharmacy',
-    icon: Pill,
-    description: 'Over-the-counter medications and pharmacy supplies',
-    items: [
-      'Acetaminophen/Tylenol',
-      'Ibuprofen/Advil',
-      'Aspirin',
-      'Antihistamines',
-      'Cough drops',
-      'Antacids',
-      'First aid ointments',
-      'Vitamin supplements',
-      'Prescription bottles',
-      'Pill counting trays',
-      'Medication labels',
-      'Pharmacy bags',
-    ],
-    priority: 'medium'
-  },
-  {
     id: 'office-supplies',
     title: 'Office & Administrative',
     icon: Package,
@@ -86,8 +67,10 @@ const wishListCategories = [
       'Paper clips',
       'Staples',
       'Calendars',
+      'Patient intake forms',
+      'Medical chart folders'
     ],
-    priority: 'low'
+    priority: 'medium'
   },
   {
     id: 'facility-needs',
@@ -101,12 +84,14 @@ const wishListCategories = [
       'Toilet paper',
       'Trash bags',
       'Laundry detergent',
-      'Light bulbs',
+      'Light bulbs (LED)',
       'Batteries (AA, AAA)',
       'Extension cords',
       'Basic tools',
       'Air fresheners',
       'Vacuum bags',
+      'Hand soap dispensers',
+      'Tissues'
     ],
     priority: 'medium'
   }
@@ -219,17 +204,17 @@ export default function WishList() {
                   <p className="text-sm text-gray-600 dark:text-gray-400">
                     <strong>How to donate:</strong> Please contact us at{' '}
                     <a 
-                      href="mailto:donations@restoringhopeclinic.org"
+                      href="mailto:restoringhopeclinic@gmail.com"
                       className="text-brand-primary hover:underline"
                     >
-                      donations@restoringhopeclinic.org
+                      restoringhopeclinic@gmail.com
                     </a>{' '}
                     or call{' '}
                     <a 
-                      href="tel:+14795551234"
+                      href="tel:+18703356746"
                       className="text-brand-primary hover:underline"
                     >
-                      (479) 555-1234
+                      (870) 335-6746
                     </a>{' '}
                     to arrange drop-off or pickup.
                   </p>
@@ -252,13 +237,13 @@ export default function WishList() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="mailto:donations@restoringhopeclinic.org"
+              href="mailto:restoringhopeclinic@gmail.com"
               className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-brand-primary hover:bg-brand-dark focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-brand-primary transition-colors"
             >
               Contact Donations Team
             </a>
             <a
-              href="tel:+14795551234"
+              href="tel:+18703356746"
               className="inline-flex items-center px-4 py-2 border border-brand-primary text-sm font-medium rounded-md text-brand-primary bg-white dark:bg-gray-800 hover:bg-gray-50 dark:hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-brand-primary transition-colors"
             >
               Call Us

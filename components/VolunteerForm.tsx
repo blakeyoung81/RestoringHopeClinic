@@ -20,7 +20,6 @@ const volunteerSchema = z.object({
   availability: z.array(z.string()).min(1, 'Please select your availability'),
   experience: z.string().optional(),
   motivation: z.string().min(10, 'Please tell us why you want to volunteer'),
-  backgroundCheck: z.boolean().refine(val => val === true, 'Background check consent is required'),
   references: z.string().optional(),
 })
 
@@ -75,7 +74,6 @@ export default function VolunteerForm() {
     defaultValues: {
       roles: [],
       availability: [],
-      backgroundCheck: false,
     },
   })
 
@@ -379,25 +377,6 @@ export default function VolunteerForm() {
             className="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-brand-primary focus:border-brand-primary dark:bg-gray-700 dark:text-white"
             placeholder="Please provide contact information for 2-3 references..."
           />
-        </div>
-
-        <div className="mb-6">
-          <label className="flex items-start">
-            <input
-              {...register('backgroundCheck')}
-              type="checkbox"
-              className={cn(
-                'h-4 w-4 text-brand-primary focus:ring-brand-primary border-gray-300 dark:border-gray-600 rounded mt-1',
-                errors.backgroundCheck ? 'border-red-300 dark:border-red-600' : ''
-              )}
-            />
-            <span className="ml-2 text-sm text-gray-700 dark:text-gray-300">
-              I consent to a background check as required for volunteer positions. *
-            </span>
-          </label>
-          {errors.backgroundCheck && (
-            <p className="mt-1 text-sm text-red-600 dark:text-red-400">{errors.backgroundCheck.message}</p>
-          )}
         </div>
       </div>
 

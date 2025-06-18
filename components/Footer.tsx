@@ -40,30 +40,30 @@ export default function Footer() {
               <span className="text-xl font-bold">Restoring Hope Clinic</span>
             </div>
             <p className="text-gray-300 mb-4 max-w-md">
-              Providing free medical and dental care to uninsured individuals and families 
+              Providing free medical and dental care to uninsured and underinsured individuals and families 
               in Northwest Arkansas. Restoring hope, one patient at a time.
             </p>
             <div className="space-y-2">
               <div className="flex items-center space-x-2 text-gray-300">
                 <MapPin className="h-4 w-4" aria-hidden="true" />
-                <span>123 Hope Street, Bentonville, AR 72712</span>
+                <span>828 S Seven Hills Ct, Fayetteville, AR 72701</span>
               </div>
               <div className="flex items-center space-x-2 text-gray-300">
                 <Phone className="h-4 w-4" aria-hidden="true" />
                 <a 
-                  href="tel:+14795551234" 
+                  href="tel:+18703356746" 
                   className="hover:text-brand-primary transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-primary"
                 >
-                  (479) 555-1234
+                  (870) 335-6746
                 </a>
               </div>
               <div className="flex items-center space-x-2 text-gray-300">
                 <Mail className="h-4 w-4" aria-hidden="true" />
                 <a 
-                  href="mailto:info@restoringhopeclinic.org" 
+                  href="mailto:restoringhopeclinic@gmail.com" 
                   className="hover:text-brand-primary transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-primary"
                 >
-                  info@restoringhopeclinic.org
+                  restoringhopeclinic@gmail.com
                 </a>
               </div>
             </div>
@@ -94,8 +94,9 @@ export default function Footer() {
               Clinic Hours
             </h3>
             <div className="text-gray-300 space-y-1 mb-6">
-              <p>Monday - Friday: 8:00 AM - 5:00 PM</p>
-              <p>Saturday: 9:00 AM - 2:00 PM</p>
+              <p><span className="text-orange-400 font-semibold">Opening August 2025</span></p>
+              <p>Monday - Friday: 9:00 AM - 4:00 PM</p>
+              <p>Saturday: 10:00 AM - 2:00 PM</p>
               <p>Sunday: Closed</p>
             </div>
             

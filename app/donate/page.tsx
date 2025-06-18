@@ -42,37 +42,29 @@ export default function DonatePage() {
             </p>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-white dark:bg-gray-800 rounded-2xl p-8 shadow-sm border border-gray-200 dark:border-gray-700 text-center">
               <div className="w-16 h-16 bg-blue-100 dark:bg-blue-900 rounded-xl flex items-center justify-center mx-auto mb-4">
                 <DollarSign className="w-8 h-8 text-blue-600 dark:text-blue-400" />
               </div>
-              <div className="text-3xl font-bold text-gray-900 dark:text-white mb-2">$50</div>
-              <div className="text-gray-600 dark:text-gray-400 text-sm">Provides a complete medical exam</div>
+              <div className="text-3xl font-bold text-gray-900 dark:text-white mb-2">100%</div>
+              <div className="text-gray-600 dark:text-gray-400 text-sm">Transparent fund usage</div>
             </div>
             
             <div className="bg-white dark:bg-gray-800 rounded-2xl p-8 shadow-sm border border-gray-200 dark:border-gray-700 text-center">
               <div className="w-16 h-16 bg-green-100 dark:bg-green-900 rounded-xl flex items-center justify-center mx-auto mb-4">
                 <Heart className="w-8 h-8 text-green-600 dark:text-green-400" />
               </div>
-              <div className="text-3xl font-bold text-gray-900 dark:text-white mb-2">$100</div>
-              <div className="text-gray-600 dark:text-gray-400 text-sm">Covers dental cleaning & exam</div>
+              <div className="text-3xl font-bold text-gray-900 dark:text-white mb-2">Free</div>
+              <div className="text-gray-600 dark:text-gray-400 text-sm">All care provided at no cost</div>
             </div>
             
             <div className="bg-white dark:bg-gray-800 rounded-2xl p-8 shadow-sm border border-gray-200 dark:border-gray-700 text-center">
               <div className="w-16 h-16 bg-purple-100 dark:bg-purple-900 rounded-xl flex items-center justify-center mx-auto mb-4">
-                <Users className="w-8 h-8 text-purple-600 dark:text-purple-400" />
+                <TrendingUp className="w-8 h-8 text-purple-600 dark:text-purple-400" />
               </div>
-              <div className="text-3xl font-bold text-gray-900 dark:text-white mb-2">$250</div>
-              <div className="text-gray-600 dark:text-gray-400 text-sm">Supports family healthcare monthly</div>
-            </div>
-            
-            <div className="bg-white dark:bg-gray-800 rounded-2xl p-8 shadow-sm border border-gray-200 dark:border-gray-700 text-center">
-              <div className="w-16 h-16 bg-orange-100 dark:bg-orange-900 rounded-xl flex items-center justify-center mx-auto mb-4">
-                <TrendingUp className="w-8 h-8 text-orange-600 dark:text-orange-400" />
-              </div>
-              <div className="text-3xl font-bold text-gray-900 dark:text-white mb-2">$500</div>
-              <div className="text-gray-600 dark:text-gray-400 text-sm">Funds medical supplies weekly</div>
+              <div className="text-3xl font-bold text-gray-900 dark:text-white mb-2">Aug</div>
+              <div className="text-gray-600 dark:text-gray-400 text-sm">2025 Launch Target</div>
             </div>
           </div>
         </div>
@@ -120,7 +112,7 @@ export default function DonatePage() {
                       Direct Patient Care
                     </h4>
                     <p className="text-gray-600 dark:text-gray-400">
-                      85% of donations go directly to patient care, medical supplies, and medications.
+                      Every dollar helps provide essential healthcare services and medical supplies to those in need.
                     </p>
                   </div>
                 </div>
@@ -134,7 +126,7 @@ export default function DonatePage() {
                       Community Impact
                     </h4>
                     <p className="text-gray-600 dark:text-gray-400">
-                      We serve over 2,500 patients annually, providing care regardless of ability to pay.
+                      Supporting uninsured and underinsured individuals and families in Northwest Arkansas.
                     </p>
                   </div>
                 </div>
@@ -159,10 +151,10 @@ export default function DonatePage() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900 dark:text-white mb-2">
-                      Transparent Use
+                      Complete Transparency
                     </h4>
                     <p className="text-gray-600 dark:text-gray-400">
-                      We provide detailed reports showing exactly how your donations support our mission.
+                      We provide quarterly spending reports showing exactly how donations are used to support our mission.
                     </p>
                   </div>
                 </div>

@@ -71,8 +71,10 @@ export default function About() {
               </h2>
               <p className="body-lg text-gray-600 dark:text-gray-300 mb-8">
                 Restoring Hope Clinic is committed to providing comprehensive, high-quality, accessible medical, dental, 
-                and mental health services to underserved and unhoused populations in Northwest Arkansas. Our student-led, 
-                physician-mentored approach ensures long-term sustainability without dependence on volunteer funding.
+                and mental health services to underserved, uninsured, and underinsured populations in Northwest Arkansas. 
+                Our student-led, physician-mentored approach creates a central healthcare hub that connects patients with 
+                a network of local clinics, specialists, and healthcare providers. We serve as the interconnected link 
+                between various healthcare services, ensuring no patient falls through the cracks.
               </p>
               <div className="space-y-6">
                 <div className="flex items-start space-x-4">
@@ -82,7 +84,7 @@ export default function About() {
                   <div>
                     <h3 className="font-semibold text-gray-900 dark:text-white mb-2">Accessibility</h3>
                     <p className="text-gray-600 dark:text-gray-400">
-                      Healthcare for uninsured, unhoused, and underserved populations within a short walk.
+                      Healthcare for uninsured, underinsured, and underserved populations within a short walk.
                     </p>
                   </div>
                 </div>
@@ -91,9 +93,9 @@ export default function About() {
                     <Users className="w-6 h-6 text-green-600 dark:text-green-400" />
                   </div>
                   <div>
-                    <h3 className="font-semibold text-gray-900 dark:text-white mb-2">Collaboration</h3>
+                    <h3 className="font-semibold text-gray-900 dark:text-white mb-2">Healthcare Hub</h3>
                     <p className="text-gray-600 dark:text-gray-400">
-                      Uniting universities, nonprofits, churches, and local health systems.
+                      Central coordination point connecting patients with local clinics, universities, nonprofits, churches, and health systems.
                     </p>
                   </div>
                 </div>
@@ -119,7 +121,7 @@ export default function About() {
                 </div>
                 <div className="flex items-center gap-3">
                   <span className="w-5 h-5 text-blue-600 dark:text-blue-400">📧</span>
-                  <span className="text-gray-700 dark:text-gray-300">RestoringHopeClinic@gmail.com</span>
+                  <span className="text-gray-700 dark:text-gray-300">restoringhopeclinic@gmail.com</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <span className="w-5 h-5 text-blue-600 dark:text-blue-400">📞</span>
@@ -268,13 +270,13 @@ export default function About() {
                     <li>• Begin core medical and dental services</li>
                     <li>• Host skin cancer screening events</li>
                     <li>• Organize health education presentations</li>
-                    <li>• Build referral networks with local clinicians</li>
+                    <li>• Build interconnected referral networks with local clinicians and specialists</li>
                   </ul>
                   <ul className="space-y-2 text-gray-600 dark:text-gray-300">
-                    <li>• Establish transportation system</li>
+                    <li>• Establish central healthcare hub connecting clinics</li>
                     <li>• Partner with city for transportation routes</li>
-                    <li>• Connect with specialists and hospitals</li>
-                    <li>• Develop volunteer-based support model</li>
+                    <li>• Create seamless patient referral system</li>
+                    <li>• Develop clinic partnership coordination model</li>
                   </ul>
                 </div>
               </div>
@@ -377,7 +379,7 @@ export default function About() {
             <a href="/donate" className="btn-warm">
               Support Our Launch
             </a>
-            <a href="mailto:RestoringHopeClinic@gmail.com" className="btn-secondary">
+            <a href="mailto:restoringhopeclinic@gmail.com" className="btn-secondary">
               Contact Us
             </a>
           </div>

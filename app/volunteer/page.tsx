@@ -10,7 +10,7 @@ const volunteerRoles = [
     id: 'medical',
     title: 'Medical Volunteers',
     description: 'Licensed healthcare professionals providing direct patient care',
-    requirements: ['Current medical license', 'Malpractice insurance', 'Background check'],
+    requirements: ['Current medical license', 'Malpractice insurance'],
     timeCommitment: '4+ hours per month',
     positions: ['Physicians', 'Nurse Practitioners', 'Registered Nurses', 'Medical Assistants']
   },
@@ -18,7 +18,7 @@ const volunteerRoles = [
     id: 'dental',
     title: 'Dental Volunteers',
     description: 'Dental professionals providing oral healthcare services',
-    requirements: ['Current dental license', 'Malpractice insurance', 'Background check'],
+    requirements: ['Current dental license', 'Malpractice insurance'],
     timeCommitment: '4+ hours per month',
     positions: ['Dentists', 'Dental Hygienists', 'Dental Assistants']
   },
@@ -26,23 +26,15 @@ const volunteerRoles = [
     id: 'administrative',
     title: 'Administrative Support',
     description: 'Help with patient check-in, scheduling, and office tasks',
-    requirements: ['Background check', 'Basic computer skills'],
+    requirements: ['Basic computer skills'],
     timeCommitment: '3+ hours per month',
     positions: ['Reception', 'Data Entry', 'Filing', 'Phone Support']
-  },
-  {
-    id: 'pharmacy',
-    title: 'Pharmacy Volunteers',
-    description: 'Licensed pharmacists helping with medication management',
-    requirements: ['Current pharmacy license', 'Background check'],
-    timeCommitment: '4+ hours per month',
-    positions: ['Pharmacists', 'Pharmacy Technicians']
   },
   {
     id: 'translation',
     title: 'Translation Services',
     description: 'Help bridge language barriers for our diverse patient population',
-    requirements: ['Fluency in English + another language', 'Background check'],
+    requirements: ['Fluency in English + another language'],
     timeCommitment: '2+ hours per month',
     positions: ['Spanish Interpreters', 'Other Language Interpreters']
   },
@@ -50,9 +42,17 @@ const volunteerRoles = [
     id: 'support',
     title: 'General Support',
     description: 'Various support roles to keep our clinic running smoothly',
-    requirements: ['Background check', 'Reliable transportation'],
+    requirements: ['Reliable transportation'],
     timeCommitment: '2+ hours per month',
     positions: ['Maintenance', 'Cleaning', 'Event Planning', 'Community Outreach']
+  },
+  {
+    id: 'clinic-partnership',
+    title: 'Clinic Partnership Coordinator',
+    description: 'Help build relationships with local healthcare providers and clinics',
+    requirements: ['Experience in healthcare or community outreach'],
+    timeCommitment: '3+ hours per month',
+    positions: ['Partnership Coordinator', 'Referral Network Builder', 'Community Liaisons']
   }
 ]
 
@@ -61,9 +61,9 @@ const filterOptions = [
   { id: 'medical', label: 'Medical' },
   { id: 'dental', label: 'Dental' },
   { id: 'administrative', label: 'Administrative' },
-  { id: 'pharmacy', label: 'Pharmacy' },
   { id: 'translation', label: 'Translation' },
-  { id: 'support', label: 'Support' }
+  { id: 'support', label: 'Support' },
+  { id: 'clinic-partnership', label: 'Clinic Partnership' }
 ]
 
 export default function VolunteerPage() {
@@ -111,27 +111,20 @@ export default function VolunteerPage() {
       {/* Clean Stats Section */}
       <section className="section-padding bg-gradient-to-br from-gray-50 to-blue-50 dark:from-gray-800 dark:to-gray-900">
         <div className="max-w-7xl mx-auto container-padding">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-center">
             <div className="bg-white dark:bg-gray-800 rounded-2xl p-8 shadow-sm border border-gray-200 dark:border-gray-700">
               <div className="w-16 h-16 bg-blue-100 dark:bg-blue-900 rounded-xl flex items-center justify-center mx-auto mb-4">
                 <Users className="w-8 h-8 text-blue-600 dark:text-blue-400" />
               </div>
-              <div className="text-3xl font-bold text-gray-900 dark:text-white mb-2">150+</div>
-              <div className="text-gray-600 dark:text-gray-400">Active Volunteers</div>
+              <div className="text-3xl font-bold text-gray-900 dark:text-white mb-2">Aug</div>
+              <div className="text-gray-600 dark:text-gray-400">2025 Launch</div>
             </div>
             <div className="bg-white dark:bg-gray-800 rounded-2xl p-8 shadow-sm border border-gray-200 dark:border-gray-700">
               <div className="w-16 h-16 bg-green-100 dark:bg-green-900 rounded-xl flex items-center justify-center mx-auto mb-4">
                 <Clock className="w-8 h-8 text-green-600 dark:text-green-400" />
               </div>
-              <div className="text-3xl font-bold text-gray-900 dark:text-white mb-2">15,000+</div>
-              <div className="text-gray-600 dark:text-gray-400">Hours Donated</div>
-            </div>
-            <div className="bg-white dark:bg-gray-800 rounded-2xl p-8 shadow-sm border border-gray-200 dark:border-gray-700">
-              <div className="w-16 h-16 bg-purple-100 dark:bg-purple-900 rounded-xl flex items-center justify-center mx-auto mb-4">
-                <Award className="w-8 h-8 text-purple-600 dark:text-purple-400" />
-              </div>
-              <div className="text-3xl font-bold text-gray-900 dark:text-white mb-2">2,500+</div>
-              <div className="text-gray-600 dark:text-gray-400">Lives Impacted</div>
+              <div className="text-3xl font-bold text-gray-900 dark:text-white mb-2">Free</div>
+              <div className="text-gray-600 dark:text-gray-400">Healthcare for All</div>
             </div>
           </div>
         </div>

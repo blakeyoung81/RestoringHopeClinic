@@ -29,7 +29,7 @@ const serviceTabs = [
 const serviceContent = {
   medical: {
     title: 'Primary Medical Care',
-    description: 'Comprehensive healthcare services for individuals and families without insurance.',
+    description: 'Comprehensive healthcare services for individuals and families without insurance or with limited coverage.',
     services: [
       'Annual physical exams and wellness visits',
       'Chronic disease management (diabetes, hypertension, etc.)',
@@ -41,7 +41,7 @@ const serviceContent = {
       'Referrals to specialists when needed'
     ],
     eligibility: [
-      'Uninsured individuals and families',
+      'Uninsured and underinsured individuals and families',
       'Household income at or below 200% of Federal Poverty Level',
       'Residents of Northwest Arkansas',
       'All ages welcome (pediatric to geriatric)'
@@ -68,7 +68,7 @@ const serviceContent = {
       'Denture consultations and adjustments'
     ],
     eligibility: [
-      'Uninsured individuals and families',
+      'Uninsured and underinsured individuals and families',
       'Household income at or below 200% of Federal Poverty Level',
       'Residents of Northwest Arkansas',
       'Children and adults of all ages'
@@ -95,7 +95,7 @@ const serviceContent = {
       'Mental health education and resources'
     ],
     eligibility: [
-      'Uninsured individuals and families',
+      'Uninsured and underinsured individuals and families',
       'Household income at or below 200% of Federal Poverty Level',
       'Residents of Northwest Arkansas',
       'All ages (child, adolescent, and adult services)'
@@ -188,8 +188,8 @@ export default function GetCarePage() {
               </h3>
               <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
                 <span className="text-orange-600 font-semibold">Opening August 2025</span><br />
-                Mon-Fri: 8:00 AM - 5:00 PM<br />
-                Saturday: 9:00 AM - 2:00 PM
+                Mon-Fri: 9:00 AM - 4:00 PM<br />
+                Saturday: 10:00 AM - 2:00 PM
               </p>
             </div>
             <div className="professional-card p-8 text-center group">
@@ -203,8 +203,8 @@ export default function GetCarePage() {
                 <a href="tel:+18703356746" className="hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
                   (870) 335-6746
                 </a><br />
-                <a href="mailto:RestoringHopeClinic@gmail.com" className="hover:text-blue-600 dark:hover:text-blue-400 transition-colors text-sm">
-                  RestoringHopeClinic@gmail.com
+                <a href="mailto:restoringhopeclinic@gmail.com" className="hover:text-blue-600 dark:hover:text-blue-400 transition-colors text-sm">
+                  restoringhopeclinic@gmail.com
                 </a>
               </p>
             </div>
@@ -351,7 +351,7 @@ export default function GetCarePage() {
               Call (870) 335-6746
             </a>
             <a
-              href="mailto:RestoringHopeClinic@gmail.com"
+              href="mailto:restoringhopeclinic@gmail.com"
               className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white text-lg rounded-2xl hover:scale-105 transition-all duration-300 shadow-xl hover:shadow-2xl group"
             >
               <Users className="mr-3 h-6 w-6" />

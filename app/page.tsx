@@ -129,11 +129,11 @@ export default function Home() {
                 </li>
                 <li className="flex items-start gap-2">
                   <ArrowRight className="w-4 h-4 text-blue-500 mt-0.5 flex-shrink-0" />
-                  <span>Build referral networks</span>
+                  <span>Build interconnected referral networks connecting local clinics and specialists</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <ArrowRight className="w-4 h-4 text-blue-500 mt-0.5 flex-shrink-0" />
-                  <span>Establish transportation</span>
+                  <span>Establish clinic partnership hub as central coordination point</span>
                 </li>
               </ul>
             </div>
@@ -228,10 +228,10 @@ export default function Home() {
             
             <CtaCard
               icon="building2"
-              title="Partnership Opportunities"
-              description="Join universities, healthcare systems, and community organizations in building this innovative model of integrated care."
+              title="Clinic Partnership Network"
+              description="Join our growing network of healthcare providers! We serve as a central hub connecting patients with local clinics, specialists, and healthcare services across Northwest Arkansas."
               href="/donate"
-              buttonText="Become a Partner"
+              buttonText="Partner With Us"
               className="bg-white dark:bg-gray-800 rounded-2xl shadow-sm border border-gray-200 dark:border-gray-700 hover:shadow-md transition-shadow duration-300"
             />
           </div>
@@ -295,8 +295,8 @@ export default function Home() {
                 <div className="text-gray-600 dark:text-gray-400 text-sm">Acre Campus</div>
               </div>
               <div className="bg-white dark:bg-gray-800 rounded-2xl p-6 text-center shadow-sm border border-gray-200 dark:border-gray-700">
-                <div className="text-3xl font-bold text-orange-600 dark:text-orange-400 mb-2">∞</div>
-                <div className="text-gray-600 dark:text-gray-400 text-sm">Hope Restored</div>
+                <div className="text-3xl font-bold text-orange-600 dark:text-orange-400 mb-2">Aug</div>
+                <div className="text-gray-600 dark:text-gray-400 text-sm">2025 Launch</div>
               </div>
             </div>
           </div>
