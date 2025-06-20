@@ -47,8 +47,9 @@ export default function Header() {
         <div className="flex lg:hidden items-center gap-2">
           <button
             type="button"
-            className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
+            className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors touch-manipulation min-h-[44px] min-w-[44px]"
             onClick={() => setMobileMenuOpen(true)}
+            aria-label="Open main menu"
           >
             <span className="sr-only">Open main menu</span>
             <Menu className="h-6 w-6" aria-hidden="true" />
@@ -115,8 +116,9 @@ export default function Header() {
               </Link>
               <button
                 type="button"
-                className="-m-2.5 rounded-md p-2.5 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
+                className="-m-2.5 rounded-md p-2.5 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors touch-manipulation min-h-[44px] min-w-[44px]"
                 onClick={() => setMobileMenuOpen(false)}
+                aria-label="Close menu"
               >
                 <span className="sr-only">Close menu</span>
                 <X className="h-6 w-6" aria-hidden="true" />
@@ -130,7 +132,7 @@ export default function Header() {
                       key={item.name}
                       href={item.href}
                       className={cn(
-                        "-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 transition-colors",
+                        "-mx-3 block rounded-lg px-3 py-3 text-base font-semibold leading-7 transition-colors touch-manipulation min-h-[44px] flex items-center",
                         pathname === item.href
                           ? "bg-blue-50 text-blue-600 dark:bg-blue-950 dark:text-blue-400"
                           : "text-gray-900 dark:text-gray-100 hover:bg-gray-50 dark:hover:bg-gray-800"
@@ -143,12 +145,12 @@ export default function Header() {
                 </div>
                 <div className="py-6 space-y-4">
                   <Link href="/get-care" onClick={() => setMobileMenuOpen(false)}>
-                    <Button className="w-full bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white font-semibold py-3 rounded-lg shadow-md hover:shadow-lg transition-all duration-300">
+                    <Button className="w-full bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white font-semibold py-4 rounded-lg shadow-md hover:shadow-lg transition-all duration-300 touch-manipulation min-h-[48px]">
                       Get Care Today
                     </Button>
                   </Link>
                   <Link href="/donate" onClick={() => setMobileMenuOpen(false)}>
-                    <Button variant="outline" className="w-full border-orange-500 text-orange-600 hover:bg-orange-50 dark:border-orange-400 dark:text-orange-400 dark:hover:bg-orange-950 font-semibold py-3 rounded-lg transition-all duration-300">
+                    <Button variant="outline" className="w-full border-orange-500 text-orange-600 hover:bg-orange-50 dark:border-orange-400 dark:text-orange-400 dark:hover:bg-orange-950 font-semibold py-4 rounded-lg transition-all duration-300 touch-manipulation min-h-[48px]">
                       Support Our Mission
                     </Button>
                   </Link>

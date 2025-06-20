@@ -246,18 +246,19 @@ export default function VolunteerPage() {
         </div>
       </section>
 
-             {/* Volunteer Form Modal */}
+             {/* Volunteer Form Modal - Mobile Optimized */}
        {showForm && (
          <div className="fixed inset-0 z-50 overflow-y-auto">
-           <div className="flex min-h-screen items-center justify-center p-4">
+           <div className="flex min-h-screen items-center justify-center p-2 sm:p-4">
              <div className="fixed inset-0 bg-black/50 backdrop-blur-sm" onClick={() => setShowForm(false)} />
-             <div className="relative bg-white dark:bg-gray-800 rounded-2xl shadow-xl max-w-2xl w-full max-h-[90vh] overflow-y-auto">
-               <div className="p-6">
-                 <div className="flex justify-between items-center mb-6">
-                   <h2 className="heading-md text-gray-900 dark:text-white">Volunteer Application</h2>
+             <div className="relative bg-white dark:bg-gray-800 rounded-xl sm:rounded-2xl shadow-xl max-w-2xl w-full max-h-[95vh] sm:max-h-[90vh] overflow-y-auto m-2 sm:m-0">
+               <div className="p-4 sm:p-6">
+                 <div className="flex justify-between items-center mb-4 sm:mb-6">
+                   <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-900 dark:text-white">Volunteer Application</h2>
                    <button 
                      onClick={() => setShowForm(false)}
-                     className="text-gray-400 hover:text-gray-600 dark:hover:text-gray-300 transition-colors"
+                     className="text-gray-400 hover:text-gray-600 dark:hover:text-gray-300 transition-colors p-2 -m-2 touch-manipulation"
+                     aria-label="Close modal"
                    >
                      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />

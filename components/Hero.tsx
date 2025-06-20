@@ -51,14 +51,14 @@ export default function Hero() {
 
           {/* Clean call-to-action buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12 slide-up">
-            <Link href="/get-care">
-              <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300">
+            <Link href="/get-care" className="w-full sm:w-auto">
+              <Button className="w-full sm:w-auto bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 touch-manipulation">
                 Learn About Our Services
                 <ArrowRight className="ml-2 w-4 h-4" />
               </Button>
             </Link>
-            <Link href="/volunteer">
-              <Button variant="outline" className="bg-white/10 border-white/30 hover:bg-white/20 text-white px-8 py-3 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300">
+            <Link href="/volunteer" className="w-full sm:w-auto">
+              <Button variant="outline" className="w-full sm:w-auto bg-white/10 border-white/30 hover:bg-white/20 text-white px-8 py-3 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 touch-manipulation">
                 Join Our Mission
                 <Users className="ml-2 w-4 h-4" />
               </Button>

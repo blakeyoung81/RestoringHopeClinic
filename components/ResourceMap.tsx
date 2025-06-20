@@ -142,7 +142,9 @@ export default function ResourceMap() {
           const popup = new mapboxgl.Popup({
             offset: 25,
             closeButton: true,
-            closeOnClick: false
+            closeOnClick: false,
+            maxWidth: '300px',
+            className: 'mobile-friendly-popup'
           }).setHTML(popupContent)
 
           // Add marker to map

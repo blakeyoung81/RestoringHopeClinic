@@ -45,12 +45,12 @@ export default function DonationWidget() {
   }
 
   return (
-    <div className="relative w-full h-[750px] border border-gray-200 dark:border-gray-700 rounded-lg overflow-hidden">
+    <div className="relative w-full h-[600px] sm:h-[700px] lg:h-[750px] border border-gray-200 dark:border-gray-700 rounded-lg overflow-hidden">
       {isLoading && (
         <div className="absolute inset-0 flex items-center justify-center bg-gray-50 dark:bg-gray-800">
-          <div className="text-center">
+          <div className="text-center p-4">
             <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-brand-primary mx-auto mb-4"></div>
-            <p className="text-gray-500 dark:text-gray-300">Loading donation form...</p>
+            <p className="text-gray-500 dark:text-gray-300 text-sm sm:text-base">Loading donation form...</p>
           </div>
         </div>
       )}
@@ -65,13 +65,13 @@ export default function DonationWidget() {
         allow="payment"
       />
       
-      {/* Fallback link */}
-      <div className="absolute bottom-4 right-4">
+      {/* Fallback link - Mobile optimized */}
+      <div className="absolute bottom-2 right-2 sm:bottom-4 sm:right-4">
         <a
           href={`https://givebutter.com/c/${givebutterId}`}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center px-3 py-2 text-xs font-medium text-gray-500 dark:text-gray-400 hover:text-brand-primary transition-colors"
+          className="inline-flex items-center px-3 py-2 text-xs font-medium text-gray-500 dark:text-gray-400 hover:text-brand-primary transition-colors touch-manipulation bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm rounded-md shadow-sm"
         >
           Open in new window
           <ExternalLink className="ml-1 h-3 w-3" />
